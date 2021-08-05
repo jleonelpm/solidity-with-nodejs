@@ -1,0 +1,23 @@
+Listar las versiones disponibles de solidity antes de instalar
+npm show solc versions
+
+Instalación recomendada en el curso la versión 0.4.24 de solidity
+npm install solc@0.4.24 --save-dev
+
+Se instaló la última version
+npm install -g solc
+
+
+Listar las versiones disponibles de web3 antes de instalar
+npm show solc versions
+
+Instalación recomendada en el curso Instalar la versión 1.0.0-beta.35 de web3
+npm install web3@1.0.0-beta.35 --save-dev
+
+Se instaló la última versión
+npm install web3
+
+Verificar el package.json para revisar que versiones se tienen instalado
+
+Se cambió la versión del compilador en VSC
+File > Preferences > Settings > Solidity Configuration > "solidity.compileUsingRemoteVersion" : "v0.4.24+commit.e67f0147"
